@@ -20,7 +20,7 @@ https://www.instagram.com/p/C6xyz123abc/
 ```
 
 ## Universal Tracking Removal
-The extension detects and eliminates tracking parameters universally across the web. It is designed to function with any platform—including social media, e-commerce, and digital publishers—ensuring that shared links contain only the essential resource identifier.
+The extension detects and eliminates tracking parameters universally across the web. It is designed to function with any platform including social media, e-commerce, and digital publishers ensuring that shared links contain only the essential resource identifier.
 
 The cleaning engine combines specialized heuristics for major services with a robust generic processor to guarantee broad operational coverage.
 
