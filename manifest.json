@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Link Cleaner Extension",
+    "version": "1.0",
+    "description": "Silent link cleaner that detects and cleans tracking URLs on copy.",
+    "permissions": [
+        "clipboardWrite",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "src/cleaner.js",
+                "src/content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
